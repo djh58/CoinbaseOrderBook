@@ -35,7 +35,6 @@ public class Main {
 
             // Request setup (5 second timeout)
             connection.setRequestMethod("GET");
-            connection.setRequestProperty("api-key", "399c945f314f16dd94d6f988359087ae");
             connection.setConnectTimeout(5000);
             connection.setReadTimeout(5000);
 
