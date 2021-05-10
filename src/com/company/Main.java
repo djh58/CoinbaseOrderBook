@@ -24,24 +24,20 @@ public class Main {
     // private static HttpURLConnection connection;
 
     public static void main(String[] args) {
-	// Method 1: java.net.HttpURLConnection
+        // Method 1: java.net.HttpURLConnection
         /*BufferedReader reader;
         String line;
         StringBuffer responseContent = new StringBuffer();
         try {
-
             URL url = new URL("https://public.sandbox.pro.coinbase.com");
             connection = (HttpURLConnection) url.openConnection();
-
             // Request setup (5 second timeout)
             connection.setRequestMethod("GET");
             connection.setConnectTimeout(5000);
             connection.setReadTimeout(5000);
-
             int status = connection.getResponseCode();
             System.out.println(status);
             //PROBLEM: returns 404 and not 200
-
             if (status > 299) {
                 reader = new BufferedReader(new InputStreamReader(connection.getErrorStream()));
                 while ((line = reader.readLine()) != null) {
@@ -103,4 +99,3 @@ public class Main {
 
     }
 }
-
