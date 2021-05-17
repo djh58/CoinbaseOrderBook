@@ -7,4 +7,4 @@ Next potential steps:
 - abstract out the quantity of data -> Coinbase Pro has three levels (see: https://docs.pro.coinbase.com/#get-product-order-book)
 - import into csv file for ease of use 
 - data visualization & calculation (calculate spread, visualize bid/asks, etc.)
-- automate such that this data is pulled at a regular interval
+- automate such that this data is pulled at a regular interval --> might need to shift from a HTTP GET to websocket 
